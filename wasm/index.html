@@ -1,0 +1,22 @@
+<script src="./dist/webassembly.js"></script>
+<script>
+    var module,
+        exports;
+
+    // webassembly.load("test.wasm").then(function(module_) {
+    //     exports = (module = module_).exports;
+    //     console.log("1. Open the console");
+    //     console.log("2. Begin typing \"exports.\" or \"module.\" to access them.");
+    // });
+
+    webassembly.load("test.wasm").then(module => {
+        console.log(module);
+        var result = module.exports.add(1, 2);
+        console.log("add(1, 2) = " + result);
+
+        document.writeln("<div>");
+        document.writeln("add(1, 2) = " + result);
+        document.writeln("</div>");
+    });
+
+</script>
