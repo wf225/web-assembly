@@ -3,7 +3,7 @@ const http = require("http");
 const path = require('path');
 
 const port = 8000;
-const host = "localhost";
+const host = "192.168.1.4"; // "localhost";
 
 // const server = http.createServer((req, res) => {
 //   res.statusCode = 200;
@@ -23,7 +23,7 @@ var app = express();
 app.use(express.static(path.join(__dirname, '')));
 
 app.get('/', function(req, res){
-  res.send('Hello World Expressjs');
+  res.send('Hello World ExpressJS');
 });
 
 app.listen(port, host, function(err) {

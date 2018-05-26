@@ -1,0 +1,26 @@
+{
+  "name": "web-assembly",
+  "version": "1.0.0",
+  "description": "## Webassembly",
+  "main": "app-http.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wf225/web-assembly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wf225/web-assembly/issues"
+  },
+  "homepage": "https://github.com/wf225/web-assembly#readme"
+}
