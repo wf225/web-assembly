@@ -3,8 +3,8 @@ const https = require("https");
 const fs = require("fs");
 const path = require('path');
 
-const key = fs.readFileSync("./encryption/domain.key");
-const cert = fs.readFileSync("./encryption/domain.crt");
+const key = fs.readFileSync(path.join(__dirname, ".", "encryption/domain.key"));
+const cert = fs.readFileSync(path.join(__dirname, ".", "encryption/domain.crt"));
 const options = {
   key: key,
   cert: cert
