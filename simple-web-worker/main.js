@@ -22,6 +22,6 @@ if (window.Worker) { // Check if Browser supports the Worker api.
 
   myWorker.onmessage = function (e) {
     result.textContent = e.data;
-    console.log('Message received from worker');
+    console.log('Message received from worker: ' + e.data);
   };
 }

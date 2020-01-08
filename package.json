@@ -7,7 +7,9 @@
     "doc": "docs"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "FileSaver": "^0.10.0",
+    "express": "^4.16.3",
+    "jszip": "^3.2.2"
   },
   "devDependencies": {},
   "scripts": {

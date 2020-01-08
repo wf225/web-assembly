@@ -3,7 +3,7 @@ const http = require("http");
 const path = require('path');
 
 const port = 8000;
-const host = "192.168.1.4"; // "localhost";
+const host = "localhost";
 
 // const server = http.createServer((req, res) => {
 //   res.statusCode = 200;
